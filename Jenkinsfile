@@ -71,7 +71,7 @@ pipeline {
             }
             
             steps {
-                input 'Do you want to run terraform apply ?'
+                //input 'Do you want to run terraform apply ?'
                 sh 'terraform apply --auto-approve'
             }
         }
